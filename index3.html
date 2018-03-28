@@ -10,73 +10,137 @@
   <!--style för ställa in stilen för ett HTML-element -->
   <!---->
   <style>
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-     background-color: black;
-}
-/* float: left; för att för
+
+  div {
+      overflow:hidden;
+  }
+
+    ul {
+      list-style-type: none;
+      margin-left: 170px;
+      padding: 0;
+      overflow: hidden;
+      background-color: #21252b;
+    }
+
+    /* float: left; för att för
 att få blockelement att glida bredvid varandra */
-li {
-    float: left;
+li a:active {
+    color: blue;
 }
 
-li a {
-    display: block;
-    padding: 8px;
-    color: red;
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      padding: 8px;
+      color: #C0C0C0;
+    }
+
+    li a:hover {
+      background-color: #555;
+      color: #4670c6;
+      font-size: 110%;
+    }
+
+    h1 {
+      color: #C0C0C0;
+
+
+
+    }
+
+    h1 a:hover {
+      background-color: #555;
+      color: #4670c6;
+      font-size: 110%;
+
+
+    }
+
+    h1 a {
+      background-color: #21252b;
+      color: #C0C0C0;
+
+    }
+
+    p {
+
+      color: #C0C0C0;
+
+    }
+
+
+
+
+    header {
+      background-color: #21252b;
+      margin-left: 170px;
+    }
+
+    article {
+        margin-left: 170px;
+        border-left: 1px solid #21252b;
+        padding: 1em;
 }
 
-li a:hover {
-    background-color: #555;
-    color: yellow;
+
+
+
+footer {
+  padding: 1em;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #21252b;
+    color: #555;
+    text-align: center;
 }
 
-h1 {
-  color: red;
-  text-decoration: none;
-  display: block;
-  padding: 8px;
-
+iframe  {
+  margin-left: 170px;
+  border-left: 1px solid #21252b;
 }
-
-h1 a:hover {
-  background-color: #555;
-  color: yellow;
-
-  }
-
-  h1 a {
-
-  color: red;
-  }
 
   </style>
-
-    </style>
 
 
 </head>
 <!--Background för bakgrund-->
 
-<body background="marine.jpg">
-  <h1><a href="index.html">The Tech Blog</a> </h1>
+<body style="background-color:#282c34;">
 
-<!--Ul(Unorderd list) Li(List)-->
+<div class="container">
+  <header>
+
+      <h1><a href="index.html">The Tech Blog</a> </h1>
+  </header>
+  <!--Ul(Unorderd list) Li(List)-->
   <ul>
-  <li><a href="index.html">News text</a></li>
-  <li><a href="index3.html">Videos</a></li>
-  <li><a href="index4.html">Pictures</a></li>
-  <li><a href="index5.html">Test3</a></li>
-  <li><a href="index6.html">Test4</a></li>
-  <li><a href="index7.html">Test5</a></li>
-</ul>
+    <li><a href="index.html">News text</a></li>
+    <li><a href="index3.html">Videos</a></li>
+    <li><a href="index4.html">Pictures</a></li>
+    <li><a href="index5.html">Test3</a></li>
+    <li><a href="index6.html">Test4</a></li>
+    <li><a href="index7.html">Test5</a></li>
+    <li><a href="About.html">About</a></li>
+  </ul>
 
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/nIOoNuUzFjQ"
-frameborder="0" allowfullscreen></iframe>
+
+  <iframe width="560" height="315"
+  src="https://www.youtube.com/embed/nIOoNuUzFjQ"
+  frameborder="0" allowfullscreen></iframe>
+
+
+<footer>
+
+  <p>Copyright &copy;TheTechBlog.com</p>
+
+</footer>
+
+</div>
 
 </body>
 

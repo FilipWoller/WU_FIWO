@@ -10,83 +10,153 @@
   <!--style för ställa in stilen för ett HTML-element -->
   <!---->
   <style>
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-     background-color: black;
-}
-/* float: left; för att för
+
+  div {
+      overflow:hidden;
+  }
+
+    ul {
+      list-style-type: none;
+      margin-left: 170px;
+      padding: 0;
+      overflow: hidden;
+      background-color: #21252b;
+    }
+
+    /* float: left; för att för
 att få blockelement att glida bredvid varandra */
-li {
-    float: left;
+li a:active {
+    color: blue;
 }
 
-li a {
-    display: block;
-    padding: 8px;
-    color: red;
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      padding: 8px;
+      color: #C0C0C0;
+    }
+
+    li a:hover {
+      background-color: #555;
+      color: #4670c6;
+      font-size: 110%;
+    }
+
+    h1 {
+      color: #C0C0C0;
+
+
+
+    }
+
+    h1 a:hover {
+      background-color: #555;
+      color: #4670c6;
+      font-size: 110%;
+
+
+    }
+
+    h1 a {
+      background-color: #21252b;
+      color: #C0C0C0;
+
+    }
+
+    p {
+
+      color: #C0C0C0;
+
+    }
+
+
+
+
+    header {
+      background-color: #21252b;
+      margin-left: 170px;
+    }
+
+    article {
+        margin-left: 170px;
+        border-left: 1px solid #21252b;
+        padding: 1em;
 }
 
-li a:hover {
-    background-color: #555;
-    color: yellow;
-}
 
-h1 {
-  color: red;
-  text-decoration: none;
-  display: block;
-  padding: 8px;
 
-}
 
-h1 a:hover {
-  background-color: #555;
-  color: yellow;
-
-  }
-
-  h1 a {
-
-  color: red;
-  }
-
-p{
-
-color: red;
-}
-
-p {
-    background-color: black;
+footer {
+  padding: 1em;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #21252b;
+    color: #555;
+    text-align: center;
 }
 
 
-    </style>
+
+
+
+  </style>
 
 
 </head>
 <!--Background för bakgrund-->
 
-<body background="marine.jpg">
-  <h1><a href="index.html">The Tech Blog</a> </h1>
+<body style="background-color:#282c34;">
 
-<!--Ul(Unorderd list) Li(List)-->
+<div class="container">
+  <header>
+
+      <h1><a href="index.html">The Tech Blog</a> </h1>
+  </header>
+  <!--Ul(Unorderd list) Li(List)-->
   <ul>
-  <li><a href="index.html">News text</a></li>
-  <li><a href="index3.html">Videos</a></li>
-  <li><a href="index4.html">Pictures</a></li>
-  <li><a href="index5.html">Test3</a></li>
-  <li><a href="index6.html">Test4</a></li>
-  <li><a href="index7.html">Test5</a></li>
-</ul>
+    <li><a href="index.html">News text</a></li>
+    <li><a href="index3.html">Videos</a></li>
+    <li><a href="index4.html">Pictures</a></li>
+    <li><a href="index5.html">Test3</a></li>
+    <li><a href="index6.html">Test4</a></li>
+    <li><a href="index7.html">Test5</a></li>
+    <li><a href="About.html">About</a></li>
+  </ul>
 
-<p><strong> Nvidia have finally launched their GTX 1070 Ti graphics card. Jen-Hsun has already said that “Pascal is unbeatable” and that it would be around for the holiday season and the foreseeable future, so it isn’t that surprising to see the green team releasing another current-gen GPU - yet hopefully their last Pascal-based GPU before Volta.
+
+
+<article>
+  <h1>Nvidia GTX 1070 Ti release date, specs, and performance </h1>
+  <p>Nvidia have finally launched their GTX 1070 Ti graphics card. Jen-Hsun has already said that “Pascal is unbeatable” and that it would be around for the holiday season and the foreseeable future, so it isn’t that surprising to see the green team releasing another current-gen GPU - yet hopefully their last Pascal-based GPU before Volta.
 
 Quite why Nvidia are doing this, however, is more interesting. Given the perceived failings of AMD’s recent Vega GPUs, it seems they have little genuine competition at the high end of the graphics market, so they could just leave the GTX 1080 and GTX 1070 to battle the Vega cards.  But there is the slightest chance future games could take better advantage of the Vega GPUs, with recent game releases offering team Radeon a little hope.
 
-The idea that the GTX 1070 Ti is being designed as a contract killer with the RX Vega 56 in its sights is a tempting one, but I would be surprised if Nvidia really felt the need to release a new card just for this purpose.<strong></p>
+The idea that the GTX 1070 Ti is being designed as a contract killer with the RX Vega 56 in its sights is a tempting one, but I would be surprised if Nvidia really felt the need to release a new card just for this purpose.</p>
+</article>
+
+<article>
+<h1>Graphics Industry Leaders Mike Rayfield and David Wang Join AMD</h1>
+<p>AMD (NASDAQ: AMD) today announced the appointment of Mike Rayfield as senior vice president and general manager of AMD Radeon Technologies Group (RTG), and David Wang as senior vice president of engineering for RTG. Both will report to President and CEO Dr. Lisa Su. Rayfield will be responsible for all aspects of strategy and business management for AMD's graphics business including consumer graphics, professional graphics, and semi-custom products. Wang will be responsible for all aspects of graphics engineering, including the technical strategy, architecture, hardware, and software for AMD graphics products and technologies.</p>
+</article>
+
+<article>
+  <h1> Big Bets on A.I. Open a New Frontier for Chip Start-Ups, Too </h1>
+<p>SAN FRANCISCO — For years, tech industry financiers showed little interest in start-up companies that made computer chips.
+
+How on earth could a start-up compete with a goliath like Intel, which made the chips that ran more than 80 percent of the world’s personal computers? Even in the areas where Intel didn’t dominate, like smartphones and gaming devices, there were companies like Qualcomm and Nvidia that could squash an upstart.</p>
+
+<footer>
+
+  <p>Copyright &copy;TheTechBlog.com</p>
+
+</footer>
+
+</div>
+
 </body>
 
 </html>
