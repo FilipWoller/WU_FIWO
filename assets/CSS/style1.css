@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-  <!-- Utf-8(Teckenkodning) & Länk till style.css-->
-  <meta charset="utf-8">
-  <title>Filip</title>
-  <link rel="icon" href="tech.ico">
-
-
-  <!--style för ställa in stilen för ett HTML-element -->
-  <!---->
-  <style>
 
   div {
       overflow:hidden;
@@ -111,45 +99,11 @@ img {
   border-left: 1px solid #21252b;
 }
 
-  </style>
 
 
-</head>
-<!--Background för bakgrund-->
-
-<body style="background-color:#282c34;">
-
-<div class="container">
-  <header>
-
-      <h1><a href="index.html">The Tech Blog</a> </h1>
-  </header>
-  <!--Ul(Unorderd list) Li(List)-->
-  <ul>
-    <li><a href="index.html">News text</a></li>
-    <li><a href="index3.html">Videos</a></li>
-    <li><a href="index4.html">Pictures</a></li>
-    <li><a href="index5.html">Test3</a></li>
-    <li><a href="index6.html">Test4</a></li>
-    <li><a href="index7.html">Test5</a></li>
-    <li><a href="About.html">About</a></li>
-  </ul>
-
-  <article>
-  <h1>Gtx 1070 Ti</h1>
-</article>
-
-  <img src="1070.png" width="720" height="522,8">
+h2 {
+  color: #C0C0C0;
 
 
-<footer>
 
-  <p>Copyright &copy;TheTechBlog.com</p>
-
-</footer>
-
-</div>
-
-</body>
-
-</html>
+}
